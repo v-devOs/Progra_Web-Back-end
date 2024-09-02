@@ -2,7 +2,6 @@ package com.example.Spring.Back_end.presentation.dto;
 
 import com.example.Spring.Back_end.domain.entity.Branch;
 import com.example.Spring.Back_end.domain.entity.Order;
-import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;
 

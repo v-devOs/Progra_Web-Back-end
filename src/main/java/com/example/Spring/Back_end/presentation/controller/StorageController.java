@@ -6,10 +6,7 @@ import com.example.Spring.Back_end.presentation.dto.StorageDTO;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-
-import java.lang.annotation.Target;
 
 @RestController("/product")
 public class StorageController {
