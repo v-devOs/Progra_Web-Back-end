@@ -10,7 +10,7 @@ continuar el desarrollo basado en features de este mismo
 
 ## Tecnologias usadas
 1. Docker para la base de datos postgresql
-   Levantar contenedor de docker con la imagen de postgresql
+   . Levantar contenedor de docker con la imagen de postgresql
   ```
     docker compose up -d
   ```
