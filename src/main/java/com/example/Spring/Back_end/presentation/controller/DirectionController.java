@@ -4,11 +4,10 @@ import com.example.Spring.Back_end.domain.entity.Direction;
 import com.example.Spring.Back_end.infraestructure.repository.IDirectionService;
 import com.example.Spring.Back_end.presentation.dto.DirectionDTO;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 @RestController
+
 public class DirectionController {
     IDirectionService directionService;
 
@@ -17,6 +16,7 @@ public class DirectionController {
     DirectionDTO save(@RequestBody Direction direction) {
         return directionService.save(direction);
     }
+
 
     public DirectionController(
             @Autowired

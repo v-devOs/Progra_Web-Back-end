@@ -1,4 +1,4 @@
-package com.example.Spring.Back_end.application.service;
+package com.example.Spring.Back_end.logic.service;
 
 import com.example.Spring.Back_end.infraestructure.mapper.ProductMapper;
 import com.example.Spring.Back_end.infraestructure.repository.IProductService;

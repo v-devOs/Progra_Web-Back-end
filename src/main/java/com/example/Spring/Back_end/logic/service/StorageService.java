@@ -1,4 +1,4 @@
-package com.example.Spring.Back_end.application.service;
+package com.example.Spring.Back_end.logic.service;
 
 import com.example.Spring.Back_end.domain.entity.Storage;
 import com.example.Spring.Back_end.domain.repository.IStorageRepository;
