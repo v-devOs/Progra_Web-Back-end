@@ -30,5 +30,10 @@ public class Employee {
     private String tel;
 
     @ManyToOne( targetEntity = Storage.class)
+    @JoinColumn( name = "id_storage")
     private Storage storage;
+
+    @ManyToOne( targetEntity = Branch.class)
+    @JoinColumn( name = "id_branch")
+    private Branch branch;
 }
